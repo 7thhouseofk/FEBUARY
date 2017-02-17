@@ -18,14 +18,7 @@ int main() {
 	else if (input == 'c')
 		blitzer += 0;
 	
-	if (input == 'p')
-		mario += 300;
-	else if (input == 'b')
-		blade += 0;
-	else if (input == 'c')
-		sonic += 400;
-	else if (input == 's')
-		blitzer += 0;
+
 	cout << "do you like pizza " << endl;
 	if (input == 's')
 		mario += 500;
