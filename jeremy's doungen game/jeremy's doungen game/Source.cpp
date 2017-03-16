@@ -44,5 +44,6 @@ int main() {
 			room = 6;
 
 			break;
-		
-		} 
+		}
+
+	}
