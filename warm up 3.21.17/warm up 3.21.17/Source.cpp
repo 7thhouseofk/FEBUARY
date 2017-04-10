@@ -1,4 +1,4 @@
-//Jay and Luke Moore
+}//Jay and Luke Moore
 #include <iostream>
 #include <string>
 using namespace std;
@@ -16,4 +16,3 @@ int main() {
 	if (input== "advanced warfare")
 		cout << "That game is trash!" << endl;
 	}
-}
