@@ -4,6 +4,10 @@
 using namespace std;
 int main() {
 
+	
+
+
+
 	Beep(5730, 100);Sleep(100);
 	Beep(330, 100);Sleep(300);
 	Beep(3360, 100);Sleep(300);
@@ -17,21 +21,24 @@ int main() {
 	Beep(220, 300);Sleep(100);
 	Beep(89426, 100);Sleep(300);
 	Beep(2343, 200);
-	
-	
-	 char letter = 'a';
+
+
+
+
+	char letter = 'a';
 	string input;
 	int room = 1;
 	while (letter != 'q')
 		switch (room) {
 		case 1:
+			system("color 4D");
 			cout << "you are hulk" << endl;
-			cout << "hulk was trying to hide from wolverine" << endl;
+			cout << "you find water and food " << endl;
 			getline(cin, input);
 			if (input.compare("go south"))
-				room = 4;
+				room = 2;
 			else {
-				cout << "wolverine found bruce banner and killed him" << endl;
+				cout << "wolverine found you and chase" << endl;
 				letter = 'q';
 			}
 			break;
@@ -75,8 +82,8 @@ int main() {
 
 			if (input.compare("go east"))
 				room = 5;
-			else if (input.compare("go west"))
-
+			
+				break;
 		case 5:
 			cout << "you're in the mall" << endl;
 			cout << "wolverine found you" << endl;
@@ -86,6 +93,7 @@ int main() {
 
 			if (input.compare("go south"))
 				room = 6;
+			break;
 		case 6:
 			cout << "you are in the water fall " << endl;
 			cout << "they start to fight in the water" << endl;
@@ -94,17 +102,26 @@ int main() {
 			getline(cin, input);
 
 			if (input.compare("go east"))
-				room = 7; 
-			
+				room = 7;
+			break;
 		case 7:
 			cout << "you are set in a moon with bombs that can blow you up if you move wrong" << endl;
 			cout << "if you move west now you get health but you need to figure out the answer to this question " << endl;
-			cout << " what is mavel"<<endl;
+			cout << " what is mavel" << endl;
 
 			getline(cin, input);
 
+			if (input.compare("go south "))
+				room = 8;
+			break;
+		case 8:
+			cout << "spider-man is here to heal hulk" << endl;
+			cout << "spider man takes hulk back home" << endl;
+
+			getline(cin, input);
+
+			if(input.compare(go)
 			
-			                    //answer a comic or people//
 
 
 
@@ -114,9 +131,20 @@ int main() {
 
 
 
-			{
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 			}
 		}
-	}
 }
