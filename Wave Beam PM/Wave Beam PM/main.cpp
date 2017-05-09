@@ -288,9 +288,9 @@ int main()
 
 			al_draw_bitmap(beam, beam_x, beam_y, 0);
 			
-			if(shootBeam == true)
-				al_draw_bitmap(beam, beam_x + beam_x/cos(45), beam_x + beam_y/sin(45), 0);
-
+			if (shootBeam == true) {
+				al_draw_bitmap(beam, beam_x + beam_x / cos(45), beam_x + beam_y / sin(45), 0);
+			}
 			//draw ship
 
 			al_draw_bitmap(ship, ship_x, ship_y, 0);

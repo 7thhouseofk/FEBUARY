@@ -117,6 +117,7 @@ int main() {
 		case 8:
 			cout << "spider-man is here to heal hulk" << endl;
 			cout << "spider man takes hulk back home" << endl;
+			cout << "you are set in a different room" << endl;
 
 			getline(cin, input);
 
